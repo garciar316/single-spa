@@ -73,6 +73,10 @@
         },
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
+          "options": {
+            "browserTarget": "mf-navbar:build",
+            "port": 4280
+          },
           "configurations": {
             "production": {
               "browserTarget": "mf-navbar:build:production"

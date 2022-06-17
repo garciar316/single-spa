@@ -27,9 +27,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ng-zorro-antd/",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.js"
+            ],
             "customWebpackConfig": {
               "path": "extra-webpack.config.js",
               "libraryName": "mf-angular-publisher",
